@@ -18,6 +18,12 @@ header {
     position: relative;
     top: 5vh
 }
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.italic {
+    font-style: italic;
+}
 
 .nombre {
     font-size: 40px;
@@ -42,10 +48,7 @@ header {
     bottom: 10vh;
     color: #ffffff;
 }
-.enlace {
-    text-decoration: none;
-    color: #ffffff;
-}
+
 
 .text{
     font-size: 38px;
@@ -64,7 +67,7 @@ header {
 
 .background_2 {
     background-color: rgb(243, 233, 221);
-    height: 200vh;
+    height: 165vh;
     width: 100vw;
     position: absolute;
     left: 0px;
@@ -104,22 +107,19 @@ header {
 
 }
 
-
-
-/*articleSlide1*/
-
 .text-on {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top:14.5em;
-    left:15px;
+    top:35vh;
+    left:1.935483870967742vh;
     color:#ffffff;
     
 }
+/*articleSlide1*/
 
 .slide {
-    height: 250px;
-    width: 700px;
+    height: 44.7vh;
+    width: 90.3225806451613vh;
     
     /*top:10px;*/
 
@@ -131,7 +131,7 @@ header {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height:calc( 250px + 3em);
+    height:calc(44.7vh);
 }
 .slide-open:checked + .slide-item {
     position: static;
@@ -231,16 +231,16 @@ header {
 
 /*articleSlide2*/
 .slide2 {
-    height: 250px;
-    width: 700px;
+    height: 44.7vh;
+    width: 90.3225806451613vh;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 65px;
+    margin-top: 3vh;
 }
 .slide-inner2 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 250px + 3em);
+    height: calc(44.7vh);
 }
 .slide-open2:checked + .slide-item2 {
     position: static;
@@ -343,16 +343,16 @@ header {
 
 
 .slide3 {
-    height: 250px;
-    width: 700px;
+    height: 44.7vh;
+    width: 90.3225806451613vh;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 65px;
+    margin-top: 3vh;
 }
 .slide-inner3 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 250px + 3em);
+    height: calc(44.7vh);
 }
 .slide-open3:checked + .slide-item3 {
     position: static;
@@ -450,6 +450,134 @@ header {
 }*/
 
 
+/*zona historia*/
+.background_History {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    margin-top: 180vh;
+}
+.title_History {
+    position: relative;
+    top:3vh;
+    margin-left: 6vw;
+    width: 39vw;
+    font-size:2.5vh;
+}
+.text_History {
+    height: 40vh;
+    width: 34vw;
+    position: absolute;
+    right: 31vh;
+    font-size: 2.4vh;
+    line-height: 3.5vh;
+}
+.history1 {
+position: absolute;
+top:4vh;
+}
+.history2 {
+    position: absolute;
+    top:22vh
+}
+.buyer_services {
+    position: absolute;
+    right: 32.2vw;
+    top:12.5vh;
+    font-size: 2.8vh;
+}
+.seller_services {
+    position: absolute;
+    right: 32.2vw;
+    top: 31vh;
+    font-size: 2.8vh;
+}
+
+/*zona comentarios de gente*/
+.restroom {
+    position: absolute;
+    top:340vh;
+}
+.columns {
+    display: flex;
+    position: absolute;
+    margin-left: 9vh;
+    top:35vh;
+    
+}
+
+.column1 {
+    width: 15vw;
+    height: 70vh;
+    
+}
+.name_column {
+font-size: 4vh;
+position: relative;
+bottom:8vh;
+}
+.background_column2 {
+    width: 43vh;
+    height: 60vh;
+    position: relative;
+    left: 11vh;
+    background-color: #ffffff;
+}
+.column2 {
+    width: 15vw;
+    height: 70vh;
+    position: relative;
+    left:7vh;
+    top:5vh;
+    line-height:3.5vh ;
+}
+.background_column3 {
+    width: 43vh;
+    height: 60vh;
+    position: relative;
+    left:13vh;
+    background-color: #ffffff;
+}
+.column3 {
+    width: 15vw;
+    height: 70vh;
+    position: relative;
+    left:7vh;
+    top:5vh;
+    line-height:3.5vh ;
+}
+.background_column4 {
+    width: 43vh;
+    height: 60vh;
+    position: relative;
+    left:15vh;
+    background-color: #ffffff;
+}
+.column4 {
+    width: 15vw;
+    height: 50vh;
+    position: relative;
+    left:7vh;
+    top:5vh;
+    line-height:3.5vh ;
+}
+
+.background_rest {
+    background-image: url("foto/salon.jpg");
+    width: 100vw;
+    height: 120vh;
+    background-repeat: no-repeat;
+    position:absolute;
+    left: 0;
+    right:0vw;
+
+
+}
+
+
+
 /*footer*/
 .logo {
     height: 100px;
@@ -463,14 +591,12 @@ header {
     align-items: center;
     bottom: 0px;
     width:100%;
-    height: 50px;
+    height: 6.451612903225806vh;
     left: 0px;
 
     background: #132046;
 }
-.a {
-    cursor: pointer;
-}
+
 .button_text {
     display: flex;
     justify-content:center;
@@ -517,8 +643,18 @@ transform: rotate(90deg);
     left:77vw;
     background: #444343;
 }
-      
+    /*hiperlinks*/  
 
+.enlace {
+    text-decoration: none;
+    color: #ffffff;
+}
+.a {
+    cursor: pointer;
+}
+.b {
+    color: #111010;
+}
 
 
 
