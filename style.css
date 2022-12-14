@@ -1,11 +1,11 @@
 
 body {
-    width:100%;
+    width:99%;
     overflow-x: hidden;
 }
 article {
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     position: relative;
     top:-6vh;
     left:-1vh;
@@ -16,7 +16,8 @@ article {
 
 header {
     position: relative;
-    top: 5vh
+    top: 5vh;
+    width:99vw;
 }
 .arial {
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +26,9 @@ header {
     font-style: italic;
 }
 
-
+main {
+    width: 89vw;
+}
 .nombre {
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,13 +36,19 @@ header {
     margin-top: 0px; 
     position: relative;
     bottom:2vh;
+    width:30vw;
+}
+.nombre_David {
+    width: 10vw;
 }
 .nombre_kim {
+    width: 10vw;
     position: relative;
-    left: 5vw;
-    bottom: 6.5vh;
+    left: 4vw;
+    bottom: 5.5vh;
 }
 .list {
+    width: 5vw;
     text-decoration: none;
     font-size:14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +61,7 @@ header {
 
 
 .text{
+    width: 25vw;
     font-size: 38px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 9vh;
@@ -69,7 +79,7 @@ header {
 .background_2 {
     background-color: rgb(243, 233, 221);
     height: 165vh;
-    width: 100vw;
+    width: 99vw;
     position: absolute;
     left: 0px;
     margin-top: 40px;
@@ -455,7 +465,7 @@ header {
 .background_History {
     background-color: rgb(255, 255, 255);
     height: 60vh;
-    width: 100vw;
+    width: 99vw;
     position: absolute;
     left: 0px;
     margin-top: 180vh;
@@ -523,7 +533,7 @@ top:4vh;
     width: 43vh;
     height: 60vh;
     position: relative;
-    margin-left: 6vw;
+    left:6vw;
     background-color: #ffffff;
 }
 .column2 {
@@ -538,7 +548,7 @@ top:4vh;
     width: 43vh;
     height: 60vh;
     position: relative;
-    left:13vh;
+    left: 13.5vh;
     background-color: #ffffff;
 }
 .column3 {
@@ -567,7 +577,7 @@ top:4vh;
 
 .background_rest {
     background-image: url("foto/salon.jpg");
-    width: 100vw;
+    width: 99vw;
     height: 120vh;
     background-repeat: no-repeat;
     position:absolute;
@@ -595,8 +605,6 @@ top:4vh;
     bottom:5vh;
 }   
 .text_finish {
-    position: absolute;
-    top:10vh;
     width: 12vw;
     font-size: 1.8vh;
     line-height:3.5vh
@@ -607,21 +615,21 @@ top:4vh;
 }
 #columnPerson {
     position: relative;
-    left: 1vw;
+    left: 8vw;
 }
 #columnPool {
     position: relative;
-    left:4.4vw;
+    left:7.4vw;
 }
 #columnChair {
     position: relative;
     left:6.7vw;
 }
 .description {
-    font-size: 3vh;
+    font-size: 2vh;
     color:rgb(150, 120, 80);
     position: relative;
-    bottom: 3.5vh;
+    bottom: 3vh;
 }
 #end {
     display: flex;
@@ -629,14 +637,14 @@ top:4vh;
 .copy {
     font-size: 1.7vh;
     position: relative;
-    top:0.5vh;
+    top:5vh;
 }
 .social_media {
     font-size: 2.5vh;
     display: flex;
     position: relative;
     left: 40vw;
-    bottom:1vh;
+    top:5vh;
 }
 #TG {
     position: relative;
